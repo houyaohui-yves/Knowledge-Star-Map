@@ -60,6 +60,23 @@ Knowledge Star-Map 是一个基于 Markdown 和 Obsidian 的个人知识系统�
 
 一篇笔记可以同时被多张领域或主题 MOC 引用。
 
+## AI 跨学科主题域
+
+AI 不作为第六个学科，而是由 `10_Knowledge/Maps/Topics/AI/AI.md` 统领的跨学科主题域。AI 知识按主要问题分为六条主线：
+
+| 主线 | 主要问题 | 笔记目录 |
+| --- | --- | --- |
+| 基础理论 | AI 的数学、统计和计算基础是什么？ | `01_Foundations/` |
+| 模型与训练 | 模型如何构成、训练、对齐和生成结果？ | `02_Models/` |
+| 工程系统 | 如何构建可靠、可评估和可部署的 AI 系统？ | `03_Engineering/` |
+| 应用实践 | AI 怎样解决具体任务和工作流问题？ | `04_Applications/` |
+| 产业与商业 | AI 如何形成产品、商业模式和产业链？ | `05_Industry/` |
+| 安全、治理与影响 | AI 带来了哪些风险、制度挑战和社会影响？ | `06_Governance/` |
+
+AI 笔记只选择一个主要目录，同时通过 `topics`、`ai_area`、`domains`、MOC 和双向链接表达其他关系。公司、模型品牌和产品名称使用 Properties，不建立长期目录。
+
+发布、融资、价格和市场份额等时效性事实先进入 `20_Sources/Notes/AI/Industry/` 并记录 `as_of`；只有提炼出的可复用认识进入 Knowledge。
+
 ## Obsidian 配置
 
 - 新附件默认放入 `99_System/Attachments/`。

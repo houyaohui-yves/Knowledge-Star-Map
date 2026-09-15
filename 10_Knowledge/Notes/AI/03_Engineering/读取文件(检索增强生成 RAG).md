@@ -1,6 +1,11 @@
 ---
 type: knowledge
 status: seed
+topics:
+  - AI
+  - RAG
+  - 知识检索
+ai_area: engineering
 domains:
   - Engines
 ---

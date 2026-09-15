@@ -1,6 +1,10 @@
 ---
 type: knowledge
 status: developing
+topics:
+  - AI
+  - LLM
+ai_area: models
 domains:
   - Engines
 ---
@@ -30,4 +34,3 @@ domains:
 - [[联网搜索(提参能力)]]
 - [[读取文件(检索增强生成 RAG)]]
 - [[记忆能力(短期记忆与上下文窗口、长期记忆与数据库)]]
-
