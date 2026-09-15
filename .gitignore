@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+
+# Obsidian local UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache/
+
+# Obsidian local trash
+.trash/
