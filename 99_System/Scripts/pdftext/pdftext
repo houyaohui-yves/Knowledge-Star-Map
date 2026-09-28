@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+TOOL_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ ! -x "$TOOL_DIR/.venv/bin/python" ]; then
+  echo "尚未安装。请先运行：$TOOL_DIR/setup.sh" >&2
+  exit 1
+fi
+exec "$TOOL_DIR/.venv/bin/python" "$TOOL_DIR/pdftext.py" "$@"

@@ -1,0 +1,974 @@
+{
+  "version": "0.1.1",
+  "status": "review",
+  "source": "/Users/houyaohui/Developer/Knowledge-Star-Map/20_Sources/Files/PDFs/既往剧本杀/柳沐瑶B本.pdf",
+  "identity": {
+    "version": "0.1.1",
+    "source_sha256": "3e21d1199da253926877f43c78b4177862a64fe2ad33d1142f41aaaaf7f7c5de",
+    "packages": {
+      "pypdf": "6.19.0",
+      "pdfplumber": "0.11.10",
+      "pypdfium2": "5.13.0",
+      "rapidocr": "3.9.2",
+      "onnxruntime": "1.30.0",
+      "Pillow": "12.3.0"
+    },
+    "models": {
+      "PP-OCRv6_det_small.onnx": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f",
+      "PP-OCRv6_rec_small.onnx": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+      "ch_ppocr_mobile_v2.0_cls_mobile.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    },
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "layout": "auto",
+    "single_pages": [],
+    "spread_pages": [],
+    "ocr": "auto",
+    "dpi": 260,
+    "keep_margins": false,
+    "format": "both"
+  },
+  "pdf_pages": 66,
+  "selected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "failed_pages": 0,
+  "seconds": 91.395,
+  "characters": 39286,
+  "notice": "OCR 可能错字或漏字；置信度不是准确率。装饰、水印、遮挡和复杂排版不能保证完整识别。",
+  "pages": [
+    {
+      "page": 1,
+      "warnings": [
+        "6 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 6,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.682
+    },
+    {
+      "page": 2,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.537
+    },
+    {
+      "page": 3,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.322
+    },
+    {
+      "page": 4,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.571
+    },
+    {
+      "page": 5,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.574
+    },
+    {
+      "page": 6,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.676
+    },
+    {
+      "page": 7,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.688
+    },
+    {
+      "page": 8,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.209
+    },
+    {
+      "page": 9,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.302
+    },
+    {
+      "page": 10,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.978
+    },
+    {
+      "page": 11,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.063
+    },
+    {
+      "page": 12,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.582
+    },
+    {
+      "page": 13,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.724
+    },
+    {
+      "page": 14,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.766
+    },
+    {
+      "page": 15,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.527
+    },
+    {
+      "page": 16,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.603
+    },
+    {
+      "page": 17,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.648
+    },
+    {
+      "page": 18,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.706
+    },
+    {
+      "page": 19,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.48
+    },
+    {
+      "page": 20,
+      "warnings": [
+        "6 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 6,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.555
+    },
+    {
+      "page": 21,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.298
+    },
+    {
+      "page": 22,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.793
+    },
+    {
+      "page": 23,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.623
+    },
+    {
+      "page": 24,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.335
+    },
+    {
+      "page": 25,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.309
+    },
+    {
+      "page": 26,
+      "warnings": [
+        "5 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 5,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.258
+    },
+    {
+      "page": 27,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.664
+    },
+    {
+      "page": 28,
+      "warnings": [
+        "5 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 5,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.465
+    },
+    {
+      "page": 29,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.829
+    },
+    {
+      "page": 30,
+      "warnings": [
+        "6 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 6,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.847
+    },
+    {
+      "page": 31,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.546
+    },
+    {
+      "page": 32,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.091
+    },
+    {
+      "page": 33,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.608
+    },
+    {
+      "page": 34,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.639
+    },
+    {
+      "page": 35,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.74
+    },
+    {
+      "page": 36,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.578
+    },
+    {
+      "page": 37,
+      "warnings": [
+        "5 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 5,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.56
+    },
+    {
+      "page": 38,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.022
+    },
+    {
+      "page": 39,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.95
+    },
+    {
+      "page": 40,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.769
+    },
+    {
+      "page": 41,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.658
+    },
+    {
+      "page": 42,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.444
+    },
+    {
+      "page": 43,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.642
+    },
+    {
+      "page": 44,
+      "warnings": [
+        "5 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 5,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.617
+    },
+    {
+      "page": 45,
+      "warnings": [
+        "5 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 5,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.557
+    },
+    {
+      "page": 46,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.201
+    },
+    {
+      "page": 47,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.597
+    },
+    {
+      "page": 48,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.557
+    },
+    {
+      "page": 49,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.618
+    },
+    {
+      "page": 50,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.482
+    },
+    {
+      "page": 51,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.6
+    },
+    {
+      "page": 52,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.59
+    },
+    {
+      "page": 53,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.605
+    },
+    {
+      "page": 54,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.448
+    },
+    {
+      "page": 55,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.605
+    },
+    {
+      "page": 56,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.641
+    },
+    {
+      "page": 57,
+      "warnings": [
+        "5 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 5,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.7
+    },
+    {
+      "page": 58,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.644
+    },
+    {
+      "page": 59,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.644
+    },
+    {
+      "page": 60,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.482
+    },
+    {
+      "page": 61,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.486
+    },
+    {
+      "page": 62,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.997
+    },
+    {
+      "page": 63,
+      "warnings": [
+        "4 个文字框置信度低于 0.85，内容保留；请核对",
+        "横向页未找到可靠双页证据，保留单页；特殊排版请核对"
+      ],
+      "low_confidence_lines": 4,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.301
+    },
+    {
+      "page": 64,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 1.952
+    },
+    {
+      "page": 65,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 2.131
+    },
+    {
+      "page": 66,
+      "warnings": [
+        "3 个文字框置信度低于 0.85，内容保留；请核对",
+        "自动识别为左右双页；双栏文章也可能具有相同特征，请核对"
+      ],
+      "low_confidence_lines": 3,
+      "method": "ocr",
+      "layout": "spread",
+      "status": "review",
+      "seconds": 0.994
+    }
+  ],
+  "files": {
+    "pages.json": "2173b8353fd73ba8a5e1e57a9525e54a530e6cc74d0d7424c1791eeac1166b50",
+    "document.md": "05a66ffc239c36499e38a461e28c0472a71ad2eae92c4a998d09144c3acadfeb",
+    "document.txt": "e5de31bb4bb401583850f833c6671c480a3a22e3ec00d0b5ac382b2c7cd39fef"
+  }
+}

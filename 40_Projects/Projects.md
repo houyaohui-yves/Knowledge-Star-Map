@@ -11,3 +11,7 @@ status: evergreen
 - `Incubator/`：已经明确要形成什么成果，但尚未正式推进的项目。
 
 每个项目应有自己的 `README.md` 作为入口，并可以通过 `References.md` 调用 `10_Knowledge/` 与 `30_Ideas/`。Projects 不进入默认知识图谱。
+
+## 进行中的项目
+
+- [《既往》剧本复盘](Active/既往剧本复盘/README.md)：综合角色视角，维护故事、时间线与待核对证据。

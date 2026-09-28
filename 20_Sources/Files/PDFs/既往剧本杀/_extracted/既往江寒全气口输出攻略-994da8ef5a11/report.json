@@ -1,0 +1,1114 @@
+{
+  "version": "0.1.1",
+  "status": "review",
+  "source": "/Users/houyaohui/Developer/Knowledge-Star-Map/20_Sources/Files/PDFs/既往剧本杀/既往江寒全气口输出攻略.pdf",
+  "identity": {
+    "version": "0.1.1",
+    "source_sha256": "ef310005f8bfb0b5ab106249e77845ab4c9d937ff53d7988c906ee97058e5381",
+    "packages": {
+      "pypdf": "6.19.0",
+      "pdfplumber": "0.11.10",
+      "pypdfium2": "5.13.0",
+      "rapidocr": "3.9.2",
+      "onnxruntime": "1.30.0",
+      "Pillow": "12.3.0"
+    },
+    "models": {
+      "PP-OCRv6_det_small.onnx": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f",
+      "PP-OCRv6_rec_small.onnx": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+      "ch_ppocr_mobile_v2.0_cls_mobile.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    },
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+    ],
+    "layout": "auto",
+    "single_pages": [],
+    "spread_pages": [],
+    "ocr": "auto",
+    "dpi": 260,
+    "keep_margins": false,
+    "format": "both"
+  },
+  "pdf_pages": 92,
+  "selected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92
+  ],
+  "failed_pages": 0,
+  "seconds": 94.041,
+  "characters": 30929,
+  "notice": "OCR 可能错字或漏字；置信度不是准确率。装饰、水印、遮挡和复杂排版不能保证完整识别。",
+  "pages": [
+    {
+      "page": 1,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 2.12
+    },
+    {
+      "page": 2,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.205
+    },
+    {
+      "page": 3,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.071
+    },
+    {
+      "page": 4,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.123
+    },
+    {
+      "page": 5,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.136
+    },
+    {
+      "page": 6,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.056
+    },
+    {
+      "page": 7,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.13
+    },
+    {
+      "page": 8,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.823
+    },
+    {
+      "page": 9,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.956
+    },
+    {
+      "page": 10,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.059
+    },
+    {
+      "page": 11,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.007
+    },
+    {
+      "page": 12,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.941
+    },
+    {
+      "page": 13,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.885
+    },
+    {
+      "page": 14,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.881
+    },
+    {
+      "page": 15,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.668
+    },
+    {
+      "page": 16,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.866
+    },
+    {
+      "page": 17,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.99
+    },
+    {
+      "page": 18,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.935
+    },
+    {
+      "page": 19,
+      "warnings": [
+        "5 个文字框置信度低于 0.85，内容保留；请核对",
+        "存在竖向文字或特殊装饰，阅读顺序可能不可靠"
+      ],
+      "low_confidence_lines": 5,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.024
+    },
+    {
+      "page": 20,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.911
+    },
+    {
+      "page": 21,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.057
+    },
+    {
+      "page": 22,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.922
+    },
+    {
+      "page": 23,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.091
+    },
+    {
+      "page": 24,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.189
+    },
+    {
+      "page": 25,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.961
+    },
+    {
+      "page": 26,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.992
+    },
+    {
+      "page": 27,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.866
+    },
+    {
+      "page": 28,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.954
+    },
+    {
+      "page": 29,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.961
+    },
+    {
+      "page": 30,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.94
+    },
+    {
+      "page": 31,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.975
+    },
+    {
+      "page": 32,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.979
+    },
+    {
+      "page": 33,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.938
+    },
+    {
+      "page": 34,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.084
+    },
+    {
+      "page": 35,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.027
+    },
+    {
+      "page": 36,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.018
+    },
+    {
+      "page": 37,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.909
+    },
+    {
+      "page": 38,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.154
+    },
+    {
+      "page": 39,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.989
+    },
+    {
+      "page": 40,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.035
+    },
+    {
+      "page": 41,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.902
+    },
+    {
+      "page": 42,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.909
+    },
+    {
+      "page": 43,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.402
+    },
+    {
+      "page": 44,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.027
+    },
+    {
+      "page": 45,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.095
+    },
+    {
+      "page": 46,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.163
+    },
+    {
+      "page": 47,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.113
+    },
+    {
+      "page": 48,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.125
+    },
+    {
+      "page": 49,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.0
+    },
+    {
+      "page": 50,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.136
+    },
+    {
+      "page": 51,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.121
+    },
+    {
+      "page": 52,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.035
+    },
+    {
+      "page": 53,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.172
+    },
+    {
+      "page": 54,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.98
+    },
+    {
+      "page": 55,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.188
+    },
+    {
+      "page": 56,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.027
+    },
+    {
+      "page": 57,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.986
+    },
+    {
+      "page": 58,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.976
+    },
+    {
+      "page": 59,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.174
+    },
+    {
+      "page": 60,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.071
+    },
+    {
+      "page": 61,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.153
+    },
+    {
+      "page": 62,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.893
+    },
+    {
+      "page": 63,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.977
+    },
+    {
+      "page": 64,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.116
+    },
+    {
+      "page": 65,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.047
+    },
+    {
+      "page": 66,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.073
+    },
+    {
+      "page": 67,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.086
+    },
+    {
+      "page": 68,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.978
+    },
+    {
+      "page": 69,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.107
+    },
+    {
+      "page": 70,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.975
+    },
+    {
+      "page": 71,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.915
+    },
+    {
+      "page": 72,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.81
+    },
+    {
+      "page": 73,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.003
+    },
+    {
+      "page": 74,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.079
+    },
+    {
+      "page": 75,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.849
+    },
+    {
+      "page": 76,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.022
+    },
+    {
+      "page": 77,
+      "warnings": [
+        "2 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 2,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.988
+    },
+    {
+      "page": 78,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.955
+    },
+    {
+      "page": 79,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.029
+    },
+    {
+      "page": 80,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.97
+    },
+    {
+      "page": 81,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.945
+    },
+    {
+      "page": 82,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.059
+    },
+    {
+      "page": 83,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.127
+    },
+    {
+      "page": 84,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 1.159
+    },
+    {
+      "page": 85,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.866
+    },
+    {
+      "page": 86,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.763
+    },
+    {
+      "page": 87,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 1.01
+    },
+    {
+      "page": 88,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.989
+    },
+    {
+      "page": 89,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.892
+    },
+    {
+      "page": 90,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.955
+    },
+    {
+      "page": 91,
+      "warnings": [],
+      "low_confidence_lines": 0,
+      "method": "ocr",
+      "layout": "single",
+      "status": "ok",
+      "seconds": 0.937
+    },
+    {
+      "page": 92,
+      "warnings": [
+        "1 个文字框置信度低于 0.85，内容保留；请核对"
+      ],
+      "low_confidence_lines": 1,
+      "method": "ocr",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.817
+    }
+  ],
+  "files": {
+    "pages.json": "382e36cd526ce3ca15322c3d4909a39b734c8c10b856cba86f141e8837c7ae3d",
+    "document.md": "9af0c484782b17e8d32987e4b470861ae9c36d40b02803aa335ed56f158eb5aa",
+    "document.txt": "aa74f825cd5d598525b666b26a1466563d774244b308d02927d8cc22ab44f786"
+  }
+}

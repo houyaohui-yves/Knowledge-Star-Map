@@ -11,7 +11,7 @@ Knowledge Star-Map 是一个基于 Markdown 和 Obsidian 的个人知识系统�
 | 目录 | 职责 | 是否进入默认知识图谱 |
 | --- | --- | --- |
 | `00_Inbox/` | 快速捕获、等待整理 | 否，整理时可临时加入 |
-| `10_Knowledge/` | 已经理解和内化的知识 | 是 |
+| `10_Knowledge/` | 已整理、可复用的知识内容 | 是 |
 | `20_Sources/` | 原始资料和来源笔记 | 否 |
 | `30_Ideas/` | 小说及其他创意种子 | 是 |
 | `40_Projects/` | 正在孵化或推进的具体成果 | 否 |
@@ -38,6 +38,8 @@ Knowledge Star-Map 是一个基于 Markdown 和 Obsidian 的个人知识系统�
 ```
 
 `Sources` 为知识提供依据，`Knowledge` 与 `Ideas` 构成正式知识星图，它们共同为 `Projects` 提供参考。
+
+进入 Knowledge 不等于已经完全内化：笔记成熟度、事实核验状态与个人掌握程度分别判断。`developing` 笔记可以保存已整理的认识；不确定结论需标明边界，个人掌握情况记在学习接续中。
 
 ## 组织原则
 
