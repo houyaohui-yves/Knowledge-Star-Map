@@ -1,0 +1,49 @@
+{
+  "inventory_date": "2026-09-28",
+  "method": "SHA-256 over original bytes; UTF-8-SIG decoding; line numbers from str.splitlines(), one-based. Metadata inventory is not full-text reading.",
+  "original_skill_sha256": "5778aae129b44283b226182d3ecf24d5f507ccf18f42fa14bb1d73d61363eaa2",
+  "files": [
+    {
+      "path": "20_Sources/Files/Books/Novel/Adult/完全摧花手册三部曲.魔爪阅读网.txt",
+      "bytes": 3572639,
+      "encoding": "utf-8-sig",
+      "lines": 6059,
+      "sha256": "cd351c2fb5d4873fd659470c218c31a7fbc4b4e10517883c5cb035bcd605647f"
+    },
+    {
+      "path": "20_Sources/Files/Books/Novel/Adult/完全摧花手册三部曲_八宝书屋.txt",
+      "bytes": 3572639,
+      "encoding": "utf-8-sig",
+      "lines": 6059,
+      "sha256": "cd351c2fb5d4873fd659470c218c31a7fbc4b4e10517883c5cb035bcd605647f"
+    },
+    {
+      "path": "20_Sources/Files/Books/Novel/Adult/朱颜血（精装版）-BABAOSW.CC(八宝书屋).txt",
+      "bytes": 5244313,
+      "encoding": "utf-8-sig",
+      "lines": 30971,
+      "sha256": "7abc0974d16d49ce562ca3330c15be34fbf07f75d44236cf29708cddcfcd033b"
+    },
+    {
+      "path": "20_Sources/Files/Books/Novel/Adult/玉女盟_八宝书屋.txt",
+      "bytes": 414998,
+      "encoding": "utf-8-sig",
+      "lines": 4260,
+      "sha256": "8263490792a27e2d1058f412061f6c2be3b7eee515755ee03cf5658589c7b451"
+    },
+    {
+      "path": "20_Sources/Files/Books/Novel/Adult/玲珑孽缘.BABAOSW.CC(八宝书屋).txt",
+      "bytes": 783172,
+      "encoding": "utf-8-sig",
+      "lines": 1577,
+      "sha256": "cb3001fe3378ddf6c2332dbd5a569000f2503dccb7686a9e4a7cfb5aa6599ce9"
+    },
+    {
+      "path": "20_Sources/Files/Books/Novel/Adult/琼明神女录.八宝书屋.txt",
+      "bytes": 2617444,
+      "encoding": "utf-8-sig",
+      "lines": 4717,
+      "sha256": "5940dd71556c18f00130cb17756d7510a96d4b5f3bcd4e799ffb91bee12ba422"
+    }
+  ]
+}

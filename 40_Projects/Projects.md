@@ -14,4 +14,5 @@ status: evergreen
 
 ## 进行中的项目
 
+- [成人小说研究](Active/AdultFictionResearch/README.md)：研究剧情套路、写作风格、描写手法与剧情合理性及完整性，分析原始 SKILL 的评价框架。
 - [《既往》剧本复盘](Active/既往剧本复盘/README.md)：综合角色视角，维护故事、时间线与待核对证据。

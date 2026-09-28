@@ -13,3 +13,9 @@ status: evergreen
 来源笔记回答“资料表达了什么”，知识笔记回答“我理解了什么”。值得长期保留的认识应提炼到 `10_Knowledge/Notes/`，并在知识笔记中链接来源。
 
 AI 产品发布、融资、定价和市场份额等时效性商业信息放入 `Notes/AI/Industry/`，并使用 `as_of` 属性记录信息有效时间。
+
+## 小说资料
+
+- `Files/Books/Novel/`：小说原始文本。
+- `Files/Books/Novel/Adult/`：用户归入成人题材的研究材料，目录标签不代替人物年龄或内容核查。
+- 本轮材料的版本清单、阅读范围与分析见 [成人小说研究项目](../40_Projects/Active/AdultFictionResearch/README.md)。
