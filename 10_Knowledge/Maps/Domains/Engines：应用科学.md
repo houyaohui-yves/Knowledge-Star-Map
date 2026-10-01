@@ -1,6 +1,7 @@
 ---
 type: map
 status: developing
+updated: 2026-10-01
 domains:
   - Engines
 ---
@@ -22,3 +23,5 @@ domains:
 ## 计算机与文本处理
 
 - [[TXT小说的章节识别]]：从纯文本的标题模式推断章节边界并建立目录。
+
+返回 [[五大学科总览]]。

@@ -36,7 +36,7 @@ status: evergreen
 
 1. 来不及分类的内容先写入 [[Inbox]]。
 2. 外部资料及阅读记录进入 [[Sources]]。
-3. 能够用自己的语言表达的认识进入 `10_Knowledge/Notes/`。
+3. 已整理、可复用的概念与认识进入 `10_Knowledge/Notes/`；入库不代表已经掌握。
 4. 知识碰撞产生的想法进入 [[Ideas]]。
 5. 有明确成果目标后，在 [[Projects]] 中建立项目。
 
