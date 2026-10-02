@@ -9,3 +9,6 @@
 
 # Obsidian local trash
 .trash/
+
+# Local-only course materials and disposable practice files
+/80_Local/
