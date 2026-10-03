@@ -15,6 +15,7 @@ topics:
 domains:
   - Engines
   - Tides
+updated: 2026-10-03
 ---
 
 # Glean Agent平台：介绍与分析
@@ -181,4 +182,4 @@ Glean 值得关注的地方，是把企业知识入口与任务执行环境放�
 
 后续如果能实际搭建一个小型 Agent，应优先验证：Auto 如何选择工具、不同身份和入口的结果差异、工具失败时的处理方式，以及模型回答与真实业务结果如何核对。当前这些实践仍未完成。
 
-概念回顾：[[Agent入门：Workflow、ReAct与平台]] · [[Workflow Agent的搭建原理]] · [[读取文件(检索增强生成 RAG)]]。
+概念回顾：[[Agent入门：Workflow、ReAct与平台]] · [[Workflow Agent的搭建原理]] · [[RAG（检索增强生成）]]。
