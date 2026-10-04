@@ -22,5 +22,6 @@ System 不进入默认知识图谱。
 ## 学习协作
 
 - [[学习协作说明]]：新会话如何开始、边学边记和继续学习。
+- [学习小节 Review 规范](学习小节Review规范.md)：小节结束后的范围定位、八项检查、证据要求与只读评审流程；交付格式见 [Review 报告模板](Templates/学习小节Review报告模板.md)。
 - 根目录 `AGENTS.md`：项目通用上下文与协作约定。
 - `.agents/skills/knowledge-study/SKILL.md`：项目专用学习技能。
