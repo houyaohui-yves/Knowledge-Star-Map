@@ -1,0 +1,37 @@
+[
+  {
+    "page": 221,
+    "warnings": [
+      "已禁用 OCR；图片内文字可能遗漏"
+    ],
+    "regions": [
+      {
+        "side": "whole",
+        "bounds": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "lines": [
+          {
+            "text": "给你的受众。",
+            "score": 1.0,
+            "x0": 72.0,
+            "x1": 162.0,
+            "y0": 75.75562500000001,
+            "y1": 90.75562500000001
+          }
+        ],
+        "removed_margins": [],
+        "text": "给你的受众。"
+      }
+    ],
+    "width": 612,
+    "height": 792,
+    "method": "text",
+    "layout": "single",
+    "status": "review",
+    "seconds": 0.016
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "version": "0.1.2",
+  "status": "review",
+  "source": "/Users/houyaohui/Developer/Knowledge-Star-Map/20_Sources/Files/PDFs/书籍/金字塔原理.pdf",
+  "identity": {
+    "version": "0.1.2",
+    "source_sha256": "a7eb807e01a1d7f4e0e09d6d6e6818384c38e229c6a34f450a0983e0cef3a93b",
+    "packages": {
+      "pypdf": "6.19.0",
+      "pdfplumber": "0.11.10",
+      "pypdfium2": "5.13.0",
+      "rapidocr": "3.9.2",
+      "onnxruntime": "1.30.0",
+      "Pillow": "12.3.0"
+    },
+    "models": {
+      "PP-OCRv6_det_small.onnx": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f",
+      "PP-OCRv6_rec_small.onnx": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+      "ch_ppocr_mobile_v2.0_cls_mobile.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    },
+    "pages": [
+      221
+    ],
+    "layout": "auto",
+    "single_pages": [],
+    "spread_pages": [],
+    "ocr": "never",
+    "dpi": 260,
+    "keep_margins": true,
+    "format": "both"
+  },
+  "pdf_pages": 309,
+  "selected_pages": [
+    221
+  ],
+  "failed_pages": 0,
+  "seconds": 0.097,
+  "characters": 6,
+  "notice": "OCR 可能错字或漏字；置信度不是准确率。装饰、水印、遮挡和复杂排版不能保证完整识别。",
+  "pages": [
+    {
+      "page": 221,
+      "warnings": [
+        "已禁用 OCR；图片内文字可能遗漏"
+      ],
+      "method": "text",
+      "layout": "single",
+      "status": "review",
+      "seconds": 0.016
+    }
+  ],
+  "files": {
+    "pages.json": "1e051b8710001588d126e448cd11653d5962af4af8080ceded252055b18c82ac",
+    "document.md": "e1dd28f20696cd9334cfd009ad15d1ce37eec3e1b90ca1a5f629cba6c5a16235",
+    "document.txt": "e1dd28f20696cd9334cfd009ad15d1ce37eec3e1b90ca1a5f629cba6c5a16235"
+  }
+}

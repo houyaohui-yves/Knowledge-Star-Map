@@ -31,7 +31,7 @@
 | `90_Archive/` | 归档内容 |
 | `99_System/` | 模板、附件、脚本和使用说明 |
 
-五大学科是 `Maps/Domains/` 中的导航视角，不恢复为强制分类目录。正式图谱仅包含 Knowledge 与 Ideas；Projects 可以引用它们，但不纳入默认图谱。
+五大学科通过 `domains` 属性与 `Maps/Domains/` 中的 MOC 表达，不恢复为强制分类目录。`Notes/` 按稳定主题群使用浅层目录，目前有 `AI/`、`Law/`、`Thinking/`；暂留根目录的独立笔记仍需属性与相关 MOC 入口。正式图谱仅包含 Knowledge 与 Ideas；Projects 可以引用它们，但不纳入默认图谱。
 
 AI 是跨学科主题域，入口为 `10_Knowledge/Maps/Topics/AI/AI.md`。AI 笔记按主要问题放入 `Notes/AI/` 下六条主线之一：`01_Foundations`、`02_Models`、`03_Engineering`、`04_Applications`、`05_Industry`、`06_Governance`。允许多 MOC 引用同一笔记。时效性商业事实先放 `20_Sources/Notes/AI/Industry/`，记录 `as_of`。
 
@@ -54,6 +54,7 @@ AI 是跨学科主题域，入口为 `10_Knowledge/Maps/Topics/AI/AI.md`。AI �
 ## 知识笔记的组织
 
 - 新建、增补或拆分知识笔记前，读取并遵循 `99_System/知识笔记组织规则.md`；颗粒度判断、概念与案例分工、迁移及验收标准集中维护在该文档。
+- 内容组织直接参考 [金字塔原理：结构化思考与表达](10_Knowledge/Notes/Thinking/金字塔原理：结构化思考与表达.md)。复杂笔记写作前对照方法；组织判断不确定时，按组织规则中的查阅顺序读取总览、对应专项笔记，必要时通过阅读记录核对原书，不凭印象新增硬性格式要求。
 - 概念独立成篇，案例串联应用，MOC 组织阅读。按独立问题而非课程或篇幅划分；通用解释集中维护，案例保留必要说明和完整推理过程，独立概念获得直接导航入口。
 - 本规则随当前主题增量执行，不自动授权全库重构；评审只读与既有文件操作边界不变。
 
