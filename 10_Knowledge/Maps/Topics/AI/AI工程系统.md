@@ -1,7 +1,7 @@
 ---
 type: map
 status: developing
-updated: 2026-10-04
+updated: 2026-10-20
 topics:
   - AI
   - AI工程
@@ -78,6 +78,7 @@ domains:
 | --- | --- | --- |
 | 主干 | “保证结果”有什么边界？Workflow、ReAct 与平台怎样分工？ | [[Agent入门：Workflow、ReAct与平台]] |
 | 实现 | 节点、数据、分支、工具和异常路径如何落地？ | [[Workflow Agent的搭建原理]] |
+| 运行支撑 | 上下文、工具、状态、约束与反馈怎样支撑 Agent，如何根据失败改进？ | [[Harness Engineering：Agent的运行支撑与反馈工程]] |
 | 动态行动 | 怎样依据环境观察决定下一步，并保留约束？ | [[ReAct]] |
 | 构建环境 | 模型、应用、框架与平台分别承担什么职责？ | [[Agent平台、框架与应用]] |
 | 推理辨析 | 单次中间推理与行动反馈循环有什么不同？ | [[思维链（Chain-of-Thought）]] |
