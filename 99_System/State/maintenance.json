@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "owner": "knowledge-maintenance-ledger",
+  "issues": {
+    "F-abd97b8b883c6293": {
+      "key": "cosine-source-page-followup",
+      "targets": [
+        "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md"
+      ],
+      "claim": "F01：概念来源页码未知未承接后补完整课件",
+      "decision": "建议修订",
+      "reason": "概念页的现行表述未标为历史；对话来源已在 2026-10-03 指向完整 PDF 第 5 页，本轮重新目视核对成立",
+      "next_action": "保留历史并补后续定位、仍未知信息及复核入口；检查未改动公式和个人学习状态",
+      "evidence": [
+        {
+          "kind": "local",
+          "path": "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md",
+          "sha256": "3299ec488a4d5af1db549a00b46c677c1f549e37f4bc3e4a0b7d8f0ce0171784",
+          "line": 70,
+          "quote": "- 初次学习出处：[[2026-10-02 Embedding与向量数据库学习记录#余弦相似度课件截图]]；当时仅核对所提供截图的定义、范围和公式，完整课程作者与页码未知。2026-10-03 补充完整课件后，已定位为 [[AI大模型应用课件：Embedding与向量数据库]] 的 PDF 物理第 5 页；2026-10-20 重新目视核对该页与截图内容对应。课程作者、平台与资料发布日期仍未知。",
+          "supports": "修后来源、仍未知范围及维护入口实际存在"
+        },
+        {
+          "kind": "local",
+          "path": "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md",
+          "sha256": "af0b9f8093d8501850d856812635eec86860701358c2fd72540c2d948f4be38e",
+          "line": 133,
+          "quote": "- 2026-10-20 系统整体验收：[[余弦相似度小节Review：2026-10-20]] 核对定义、计算、关联应用及来源接续，并修正概念页遗漏的第 5 页定位；没有新增课程学习进度或个人掌握证据。",
+          "supports": "修后来源、仍未知范围及维护入口实际存在"
+        },
+        {
+          "kind": "material",
+          "path": "80_Local/Courses/AI大模型应用课件/4-Embeddings和向量数据库/1-Embedding与向量数据库.pdf",
+          "sha256": "27473a2b9c90ded9f28aef22ab1cbe63ba3d05592c5b5b681d70f9afff9c78a6",
+          "locator": "物理第 5 页，完整渲染页面",
+          "observation": "本轮已目视对照初次截图，定义、方向条件、三个特殊夹角和坐标公式对应；页面未提供可识别的作者信息",
+          "supports": "补充已核对的页码定位，不补造课程作者"
+        }
+      ],
+      "id": "F-abd97b8b883c6293",
+      "basis": {
+        "files": {
+          "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md": "3299ec488a4d5af1db549a00b46c677c1f549e37f4bc3e4a0b7d8f0ce0171784",
+          "20_Sources/Notes/Conversations/2026-10-02 Embedding与向量数据库学习记录.md": "fc48f795d4c0b5da58bd8f28921c1905ba1d9bae27576d667af5dcd997a52bc3",
+          "80_Local/Courses/AI大模型应用课件/4-Embeddings和向量数据库/1-Embedding与向量数据库.pdf": "27473a2b9c90ded9f28aef22ab1cbe63ba3d05592c5b5b681d70f9afff9c78a6",
+          "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md": "af0b9f8093d8501850d856812635eec86860701358c2fd72540c2d948f4be38e"
+        },
+        "external": []
+      },
+      "status": "resolved",
+      "request": {
+        "purpose": "落实完整 Review F01：余弦概念来源接续与复核入口",
+        "files": [
+          "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md",
+          "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md"
+        ],
+        "questions": [
+          "是否保留早期截图历史，同时更新已确认的 PDF 页码？",
+          "作者未知与个人理解待验证是否保留？"
+        ]
+      },
+      "review_snapshot": "f03e9fe29a3a78bda9b15d09a6db5f47c90417dc966648dac40749b425d37c50",
+      "reviewer": "本会话 Codex；非独立模型盲测",
+      "method": "完整余弦小节 Review；重新读取概念、两份来源，目视对照 PDF 第 5 页与初次截图",
+      "limitations": "未获课程作者／平台／发布日期；不重跑课程或推断个人掌握",
+      "authorization": "用户授权整体知识系统改造并要求按计划执行批次 D；落实真实验收发现 F01 及必要复核入口",
+      "history": [
+        {
+          "at": "2026-10-20T04:47:46+00:00",
+          "event": "recorded",
+          "previous_review": null
+        },
+        {
+          "at": "2026-10-20T04:47:46+00:00",
+          "event": "prepared",
+          "operation": "O-7e22e2cd563a84d0"
+        },
+        {
+          "at": "2026-10-20T04:48:07+00:00",
+          "event": "resolved",
+          "operation": "O-7e22e2cd563a84d0",
+          "reason": "历史截图状态、后补 PDF 第 5 页和作者未知已分开说明；原学习证据保留，结构发现为 0"
+        }
+      ]
+    }
+  },
+  "operations": {
+    "O-7e22e2cd563a84d0": {
+      "id": "O-7e22e2cd563a84d0",
+      "issue_id": "F-abd97b8b883c6293",
+      "request": {
+        "purpose": "落实完整 Review F01：余弦概念来源接续与复核入口",
+        "files": [
+          "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md",
+          "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md"
+        ],
+        "questions": [
+          "是否保留早期截图历史，同时更新已确认的 PDF 页码？",
+          "作者未知与个人理解待验证是否保留？"
+        ]
+      },
+      "authorization": "用户授权整体知识系统改造并要求按计划执行批次 D；落实真实验收发现 F01 及必要复核入口",
+      "acceptance": "概念的历史与现行出处清晰，PDF 第 5 页可复核，仍未知信息保留；只更新出处、修改日期和报告入口，公式及原学习接续逐字保留",
+      "files": [
+        {
+          "path": "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md",
+          "before_sha256": "caa87b812aa0b0a16f43d2bfaf13c49f5e8074982f7a81c0f12e12c8ad17fbb6",
+          "after_sha256": "3299ec488a4d5af1db549a00b46c677c1f549e37f4bc3e4a0b7d8f0ce0171784"
+        },
+        {
+          "path": "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md",
+          "before_sha256": "6e0770ff8462da720a373de74bd6194a9f9a001c139a2b1982f9a2289b47699b",
+          "after_sha256": "af0b9f8093d8501850d856812635eec86860701358c2fd72540c2d948f4be38e"
+        }
+      ],
+      "guard": {
+        "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md": "caa87b812aa0b0a16f43d2bfaf13c49f5e8074982f7a81c0f12e12c8ad17fbb6",
+        "20_Sources/Notes/Conversations/2026-10-02 Embedding与向量数据库学习记录.md": "fc48f795d4c0b5da58bd8f28921c1905ba1d9bae27576d667af5dcd997a52bc3",
+        "10_Knowledge/Notes/AI/01_Foundations/向量的 L2 归一化.md": "96b714072cd6100e8c31ec83c2fb7a1ba7825c62696d6451b64aa4729ed05fca",
+        "10_Knowledge/Notes/AI/03_Engineering/向量相似不等于语义一致.md": "229b86673959bf8274e369715d2955a9b1d386383d8600ff317508f98bd50fbe",
+        "10_Knowledge/Maps/Topics/AI/AI基础理论.md": "42520df4034268c9151bdcebc14eb24427ecaaba36849b051545edc2064abcfe",
+        "10_Knowledge/Notes/AI/03_Engineering/TF-IDF.md": "10c40d888447a6b1c925bc95efadcfb9522cd99d50ee4d5cfc5750874d5f9610",
+        "10_Knowledge/Notes/AI/02_Models/Embedding(嵌入).md": "247a19610d225587f4f79ad686a81af25d2d775e5789cbd1ceb33123c128f49b",
+        "10_Knowledge/Notes/AI/04_Applications/酒店内容推荐案例：TF-IDF、N-Gram与余弦相似度.md": "cda38a93333e51da4971e3f568d0141472fbbb7576f78d3dc28d598d2e1f0db5",
+        "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md": "6e0770ff8462da720a373de74bd6194a9f9a001c139a2b1982f9a2289b47699b",
+        "10_Knowledge/Notes/AI/03_Engineering/TF（词频）.md": "9fc23fd66a72bc7a16489e642e0d9846003c240dce3f51276f94feb8a8830c33",
+        "10_Knowledge/Notes/AI/03_Engineering/DF（文档频率）.md": "0625328f6bea134dced087e8fd06ac1f5a91b466b1edcaf34b37ee74aa1cd3b5",
+        "10_Knowledge/Notes/AI/03_Engineering/IDF（逆文档频率）.md": "8635e3f3c093d33448a658af844d14027120bdcd3086aecd0b0ac0f9310dc0f1",
+        "10_Knowledge/Notes/AI/01_Foundations/稀疏向量与稠密向量.md": "ab39fce2fa9e5033b3faf0a7ebcdb9b2a54ba96ef20930f25577e6da18dd0b30",
+        "10_Knowledge/Notes/AI/02_Models/N-Gram.md": "b2517cbe5336f104eca28f1447949833736464a577a6090491fe54f3a19e5e93",
+        "10_Knowledge/Notes/AI/02_Models/Word Embedding（词嵌入）.md": "f6e1b152f9dfb8a21e81d30f7793f6565272f131580a77a517f87d32b9f41a7b",
+        "10_Knowledge/Notes/AI/02_Models/Word2Vec.md": "e5361a290a89366dd8d8e2fb06a2e51ed62c2c5303cc069507c5ec9a6d1945bb",
+        "10_Knowledge/Notes/AI/03_Engineering/词向量汇聚为文本向量.md": "0843923cc7995fdfd88e179aca9fa9114ffcaf4707ec64b809fac84a4207581b",
+        "10_Knowledge/Notes/AI/03_Engineering/文本表示方案的选择：TF-IDF、词向量与句子向量.md": "cd90111c8dc130fb02ee25326d81ba4fdea8403bc8e90e794373a5282bfb1331",
+        "10_Knowledge/Notes/AI/03_Engineering/MTEB（文本嵌入评测）.md": "8a5b81f74415d9a460e391ec95ae247ae468c69ebb9b69a0b71d51948d162156",
+        "10_Knowledge/Notes/AI/03_Engineering/向量数据库.md": "c50d75211b2153e69f2198fe0bf845c3d4ac3a819bd2d45343883bfa1dd4246a",
+        "10_Knowledge/Notes/AI/03_Engineering/知识库与向量数据库.md": "2f8a96e1d2b4b21f4fffe4106146de91552a09c598ed2f8bfe185607cf08b38e",
+        "10_Knowledge/Notes/AI/03_Engineering/向量近邻检索：精确搜索与近似搜索.md": "cfed73a264698b450bb9fd0eaf01af62e8f34a5a7d0d1b955297751189843eae",
+        "10_Knowledge/Notes/AI/01_Foundations/欧氏距离与平方欧氏距离.md": "c99f1000c6aee62aa6be3237ebf48367dc499df0b1e538d03316f7915a149472",
+        "10_Knowledge/Notes/AI/03_Engineering/向量检索中的ID与元数据.md": "bcd3a2ae96595003fe8f206c832f024147bf8d456af317d0de8acd4df16fed22",
+        "10_Knowledge/Notes/AI/03_Engineering/FAISS.md": "8b4159a37073818fb66ccbdb7fc902070dba7c7720bcb53d1335ce6e4f62eb19",
+        "10_Knowledge/Notes/AI/04_Applications/FAISS文本检索案例：向量、ID与元数据.md": "2907db641be9779d3dcb96778615d934c68f726aca84cffc30ddfea5c38838e9",
+        "10_Knowledge/Maps/Topics/AI/AI工程系统.md": "70221834720e5c87d0234e2cc283c68f552d31367d4d757c592b9751b77d2f4c",
+        "99_System/知识组织规范.md": "a5190af79367e79bc48e51eeae690e5d86296176eeb0e010bbe1ab8be2518ad9",
+        "80_Local/Courses/AI大模型应用课件/4-Embeddings和向量数据库/1-Embedding与向量数据库.pdf": "27473a2b9c90ded9f28aef22ab1cbe63ba3d05592c5b5b681d70f9afff9c78a6"
+      },
+      "status": "verified",
+      "diagnosis": {
+        "claim": "F01：概念来源页码未知未承接后补完整课件",
+        "reason": "概念页的现行表述未标为历史；对话来源已在 2026-10-03 指向完整 PDF 第 5 页，本轮重新目视核对成立",
+        "evidence": [
+          {
+            "kind": "local",
+            "path": "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md",
+            "sha256": "caa87b812aa0b0a16f43d2bfaf13c49f5e8074982f7a81c0f12e12c8ad17fbb6",
+            "line": 70,
+            "quote": "- 学习出处及用户课件：[[2026-10-02 Embedding与向量数据库学习记录#余弦相似度课件截图]]；仅核对可见一页的定义、范围和公式，完整课程作者与页码未知。",
+            "supports": "定位旧的来源状态"
+          },
+          {
+            "kind": "local",
+            "path": "20_Sources/Notes/Conversations/2026-10-02 Embedding与向量数据库学习记录.md",
+            "sha256": "fc48f795d4c0b5da58bd8f28921c1905ba1d9bae27576d667af5dcd997a52bc3",
+            "line": 22,
+            "quote": "- 2026-10-03 用户补充了本地完整 PDF；第 5、8 页的文字与公式对应上述两张截图，更新出处线索见 [[AI大模型应用课件：Embedding与向量数据库]]。本文件保留首次提供截图时的来源状态与原讨论证据，不据内容对应补造作者或视频出处。",
+            "supports": "后续补材料与转接记录"
+          },
+          {
+            "kind": "material",
+            "path": "80_Local/Courses/AI大模型应用课件/4-Embeddings和向量数据库/1-Embedding与向量数据库.pdf",
+            "sha256": "27473a2b9c90ded9f28aef22ab1cbe63ba3d05592c5b5b681d70f9afff9c78a6",
+            "locator": "物理第 5 页，完整渲染页面",
+            "observation": "本轮已目视对照初次截图，定义、方向条件、三个特殊夹角和坐标公式对应；页面未提供可识别的作者信息",
+            "supports": "补充已核对的页码定位，不补造课程作者"
+          }
+        ],
+        "basis": {
+          "files": {
+            "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md": "caa87b812aa0b0a16f43d2bfaf13c49f5e8074982f7a81c0f12e12c8ad17fbb6",
+            "20_Sources/Notes/Conversations/2026-10-02 Embedding与向量数据库学习记录.md": "fc48f795d4c0b5da58bd8f28921c1905ba1d9bae27576d667af5dcd997a52bc3",
+            "80_Local/Courses/AI大模型应用课件/4-Embeddings和向量数据库/1-Embedding与向量数据库.pdf": "27473a2b9c90ded9f28aef22ab1cbe63ba3d05592c5b5b681d70f9afff9c78a6"
+          },
+          "external": []
+        },
+        "reviewer": "本会话 Codex；非独立模型盲测",
+        "method": "完整余弦小节 Review；重新读取概念、两份来源，目视对照 PDF 第 5 页与初次截图",
+        "limitations": "未获课程作者／平台／发布日期；不重跑课程或推断个人掌握",
+        "review_snapshot": "60378bc3637020a6411dc77cdb3379bf2f7f3cd1b8a711e57bb02b7e54fdc2f0"
+      },
+      "baseline_findings": [],
+      "created": "2026-10-20T04:47:46+00:00",
+      "history": [
+        {
+          "at": "2026-10-20T04:48:06+00:00",
+          "event": "file_written",
+          "path": "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md"
+        },
+        {
+          "at": "2026-10-20T04:48:06+00:00",
+          "event": "file_written",
+          "path": "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md"
+        }
+      ],
+      "verification": {
+        "operation_id": "O-7e22e2cd563a84d0",
+        "snapshot_id": "f03e9fe29a3a78bda9b15d09a6db5f47c90417dc966648dac40749b425d37c50",
+        "reviewer": "本会话 Codex",
+        "method": "重读修后来源条目与维护入口；对比工作区基线，数学正文和原学习接续逐字未变；重扫两份主审文件",
+        "limitations": "课程作者等仍未知；没有模型或学习效果实验",
+        "reason": "历史截图状态、后补 PDF 第 5 页和作者未知已分开说明；原学习证据保留，结构发现为 0",
+        "passed": true,
+        "remaining_findings": {},
+        "evidence": [
+          {
+            "kind": "local",
+            "path": "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md",
+            "sha256": "3299ec488a4d5af1db549a00b46c677c1f549e37f4bc3e4a0b7d8f0ce0171784",
+            "line": 70,
+            "quote": "- 初次学习出处：[[2026-10-02 Embedding与向量数据库学习记录#余弦相似度课件截图]]；当时仅核对所提供截图的定义、范围和公式，完整课程作者与页码未知。2026-10-03 补充完整课件后，已定位为 [[AI大模型应用课件：Embedding与向量数据库]] 的 PDF 物理第 5 页；2026-10-20 重新目视核对该页与截图内容对应。课程作者、平台与资料发布日期仍未知。",
+            "supports": "修后来源、仍未知范围及维护入口实际存在"
+          },
+          {
+            "kind": "local",
+            "path": "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md",
+            "sha256": "af0b9f8093d8501850d856812635eec86860701358c2fd72540c2d948f4be38e",
+            "line": 133,
+            "quote": "- 2026-10-20 系统整体验收：[[余弦相似度小节Review：2026-10-20]] 核对定义、计算、关联应用及来源接续，并修正概念页遗漏的第 5 页定位；没有新增课程学习进度或个人掌握证据。",
+            "supports": "修后来源、仍未知范围及维护入口实际存在"
+          },
+          {
+            "kind": "material",
+            "path": "80_Local/Courses/AI大模型应用课件/4-Embeddings和向量数据库/1-Embedding与向量数据库.pdf",
+            "sha256": "27473a2b9c90ded9f28aef22ab1cbe63ba3d05592c5b5b681d70f9afff9c78a6",
+            "locator": "物理第 5 页，完整渲染页面",
+            "observation": "本轮已目视对照初次截图，定义、方向条件、三个特殊夹角和坐标公式对应；页面未提供可识别的作者信息",
+            "supports": "补充已核对的页码定位，不补造课程作者"
+          }
+        ],
+        "structure": {
+          "10_Knowledge/Notes/AI/01_Foundations/余弦相似度.md": {
+            "execution": "checked",
+            "findings": [],
+            "external_unchecked": 1
+          },
+          "20_Sources/Notes/Courses/AI大模型应用课件：Embedding与向量数据库.md": {
+            "execution": "checked",
+            "findings": [],
+            "external_unchecked": 1
+          }
+        },
+        "index_errors": []
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "query-rewrite",
+  "files": [
+    "10_Knowledge/Notes/AI/03_Engineering/RAG中的Query改写.md",
+    "10_Knowledge/Notes/AI/04_Applications/Query改写案例：上海迪士尼客服问答.md",
+    "20_Sources/Notes/Courses/AI大模型应用课件：RAG技术与应用.md",
+    "10_Knowledge/Maps/Topics/AI/提示词与RAG：学习地图.md"
+  ],
+  "index_roots": ["00_Inbox", "10_Knowledge", "20_Sources/Notes", "30_Ideas", "40_Projects", "90_Archive", "99_System"],
+  "questions": [
+    {"id": "Q1", "prompt": "原样通过、改写、澄清的边界是否已有说明？不要因为存在未开展的实验而要求新增同义笔记。"},
+    {"id": "Q2", "prompt": "概念、案例和来源是否区分程序模拟与真实检索收益？若声称效果已验证，证据是否足以支持？"},
+    {"id": "Q3", "prompt": "当前学习状态能否与历史记录区分？是否在缺少用户表现证据时升级掌握状态？"},
+    {"id": "Q4", "prompt": "本轮所需材料是否可访问？哪些只是记录中的历史核验，哪些本轮重新验证？还有哪些检查限制？"}
+  ]
+}
