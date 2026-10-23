@@ -9,7 +9,7 @@ domains:
   - Engines
   - Constants
 created: 2026-10-01
-updated: 2026-10-04
+updated: 2026-10-24
 source: "[[2026-09-20 提示词与 RAG 学习记录]]"
 ---
 
@@ -112,6 +112,23 @@ source: "[[2026-09-20 提示词与 RAG 学习记录]]"
 - 评测进阶：在 [[RAG的失败诊断与反馈迭代]] 的排错框架上，进一步展开指标定义、评测集设计与实验方法。
 
 混合召回与融合算法尚待展开；重排已有独立正文，上下文组装已有流程与预算入口，更细的实验方法仍待学习。导航中的内容完成不代表个人已经掌握。
+
+## 归档与维护边界
+
+本专题跨多个 AI 主线，通过链接组织内容，未另建独立 RAG 正文目录。以下为与本专题有关的现有位置，均相对知识库根目录：
+
+| 路径 | 本专题在此保存什么 |
+| --- | --- |
+| `10_Knowledge/Maps/Topics/AI/提示词与RAG：学习地图.md` | 本页的学习路径、关系和问题索引 |
+| `10_Knowledge/Notes/AI/01_Foundations/` | 向量、距离等数学基础 |
+| `10_Knowledge/Notes/AI/02_Models/` | Token、Embedding 等模型与表示机制 |
+| `10_Knowledge/Notes/AI/03_Engineering/` | Prompt、RAG、Query 处理、索引检索、评测与排错方法 |
+| `10_Knowledge/Notes/AI/04_Applications/` | 完整问答、Query 改写与检索案例 |
+| `20_Sources/Notes/Courses/` | RAG 与 Embedding 课件的来源、读取范围和课程接续；共享目录 |
+| `20_Sources/Notes/Conversations/` | 独立对话学习证据与接续；共享目录 |
+| `80_Local/Courses/AI大模型应用课件/` | 仅本机课件、示例代码与临时实践，不进入 Git |
+
+相同概念只在主要正文维护，不按课程或地图复制。完整 AI 组织结构见 [[AI#归档与维护边界]]；本专题路径变化时同步本节，正文内容变化则维护上方相应知识入口。学习状态仍由来源记录负责。
 
 ## 来源与相关入口
 

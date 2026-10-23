@@ -1,7 +1,7 @@
 ---
 type: map
 status: developing
-updated: 2026-10-20
+updated: 2026-10-24
 topics:
   - AI
   - AI工程
@@ -96,6 +96,12 @@ domains:
 - 推理优化、部署和成本控制
 - 工具执行成功与业务结果正确如何分别验证
 - 反思的反馈来源、评价标准与效果验证
+
+## 归档与维护边界
+
+检索、提示、Agent、工作流及系统评估等可复用工程知识归入 `10_Knowledge/Notes/AI/03_Engineering/`；完整任务案例归入 `10_Knowledge/Notes/AI/04_Applications/`，由本页按问题交叉引用。
+
+课件和对话的出处、学习进度保留在共享来源目录，具体产品的时效性研究保留在来源笔记。完整目录与分工见 [[AI#归档与维护边界]]。
 
 ## 相关入口
 
