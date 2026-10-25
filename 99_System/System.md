@@ -19,6 +19,7 @@ status: evergreen
 ## 模板与工具
 
 - [模板](Templates/)：知识、来源、MOC、灵感、项目及 [Review 报告](Templates/学习小节Review报告模板.md)。
+- 投资专用模板：[[公司股票跟踪模板]]、[[个股持仓与行动模板]]、[[公司研究更新模板]]；规则从 [[投资]] 和投资实践项目进入。
 - [PDF 工具](Scripts/pdftext/README.md)：提取、OCR、核对及限制；[原设计](PDF转文本工具方案.md)为历史方案，实现以工具为准。
 - [知识维护工具](Scripts/knowledge_maintenance/README.md)：范围检查、证据交接、受控修订、复查与恢复；[持久账本](State/maintenance.json)保存事项，[验收记录](Scripts/knowledge_maintenance/验收记录.md)说明验证范围。
 - [系统架构与改造方案](知识库系统架构与改造方案.md)：组件取舍、实施状态和迁移记录；[系统验收记录](系统验收记录.md)集中保存真实任务、隔离场景、成本与使用边界。
